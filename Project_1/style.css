@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Raleway:wght@400;700&display=swap');
+
+* {
+  margin: 0px;
+}
+header {
+  background-image: url('../images/bg-header-desktop.png');
+  background-size: cover;
+  background-position: top;
+}
+
+.header-container {
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  margin-top: 130px;
+}
+
+.title {
+  font-size: 45px;
+  font-weight: 600;
+  color: rgb(82, 78, 78);
+  margin-top: 65px;
+  font-family: Bai Jamjuree;
+}
+
+.about {
+  font-family: Bai Jamjuree;
+  font-size: 20px;
+  width: 400px;
+  text-align: center;
+  color: rgb(167, 164, 164);
+  margin-top: 25px;
+  line-height: 30px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.button_1 {
+  width: 230px;
+  height: 60px;
+  border-radius: 35px;
+  font-size: 17px;
+  font-family: Bai Jamjuree;
+  font-weight: 600;
+  background-color: rgb(151, 150, 150);
+  color: white;
+  flex-direction: row;
+  border: 1px solid rgb(151, 150, 150);
+  margin-top: 40px;
+  margin-right: 280px;
+}
+
+.button_2 {
+  width: 230px;
+  height: 60px;
+  border-radius: 35px;
+  font-size: 17px;
+  font-family: Bai Jamjuree;
+  font-weight: 600;
+  background-color: rgb(142, 103, 214);
+  color: white;
+  flex-direction: row;
+  border: 1px solid rgb(142, 103, 214);
+  margin-top: -60px;
+  margin-left: 220px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 130px;
+}
+main .title {
+  font-size: 30px;
+}
+
+main .about {
+  width: 480px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.computer {
+  margin-top: 60px;
+  margin-right: 745px;
+}
+
+.mini-card {
+  align-items: center;
+  justify-content: center;
+  margin-left: 450px;
+  margin-top: -580px;
+  width: 250px;
+}
+
+.mini-title {
+  font-size: 20px;
+  font-family: Bai Jamjuree;
+  font-weight: 600;
+  color: rgb(73, 72, 72);
+}
+
+.description {
+  font-size: 19px;
+  font-family: Bai Jamjuree;
+  line-height: 35px;
+  color: rgb(167, 164, 164);
+}
+
+.mini-card-2 {
+  align-items: center;
+  justify-content: center;
+  margin-left: 450px;
+  margin-top: 50px;
+  width: 250px;
+}
+
+.mini-card-3 {
+  align-items: center;
+  justify-content: center;
+  margin-left: 450px;
+  margin-top: 50px;
+  width: 250px;
+}
+
+.title_2 {
+  font-size: 35px;
+  font-weight: 600;
+  color: rgb(82, 78, 78);
+  margin-top: 65px;
+  font-family: Bai Jamjuree;
+  margin-top: 250px;
+}
+
+.about_2 {
+  font-family: Bai Jamjuree;
+  font-size: 20px;
+  text-align: center;
+  width: 520px;
+  color: rgb(167, 164, 164);
+  margin-top: 10px;
+  line-height: 30px;
+}
+
+.device {
+  margin-top: 100px;
+}
+
+.title_3 {
+  font-size: 34px;
+  font-weight: 600;
+  color: rgb(82, 78, 78);
+  font-family: Bai Jamjuree;
+  margin-top: 80px;
+}
+
+.about_3 {
+  font-family: Bai Jamjuree;
+  font-size: 18px;
+  text-align: center;
+  width: 520px;
+  color: rgb(167, 164, 164);
+  margin-top: 20px;
+}
+
+.icon {
+  margin-left: 150px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 85px;
+}
+
+.card {
+  width: 330px;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.mini-title {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.description {
+  text-align: center;
+}
+
+.sponsors {
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.download {
+  margin-top: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-container {
+  margin-top: 250px;
+  background-color: rgb(243, 243, 243);
+  height: 130px;
+  display: flex;
+}
+
+footer .logo {
+  width: 8vh;
+  height: 8vh;
+  margin-top: 40px;
+  margin-left: 100px;
+}
+
+.links {
+  width: 500px;
+  height: 50px;
+  margin-left: 200px;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+a {
+  padding-left: 60px;
+  font-family: Bai Jamjuree;
+  line-height: 40px;
+  cursor: pointer;
+}
+a:hover {
+  color: grey;
+}
+.social-media {
+  margin-left: 100px;
+  width: 300px;
+}
+
+.facebook,
+.twitter,
+.instagram {
+  width: 4vh;
+  height: 4vh;
+  margin-top: 40px;
+  margin-left: 30px;
+  cursor: pointer;
+}
